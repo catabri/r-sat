@@ -42,10 +42,10 @@ def main():
                     print(data_string, end="")
                     #print(' what tha heeeeellll')
                     i+=1
-                    escribir("mensaje.csv",[1,2,3,4,5])
+                    escribir("mensaje.csv",data_string)
             except Exception:
                 print("Failed reading data... trying again")
-                escribir("mensaje.csv",[1,2,3,4,5])
+                escribir("mensaje.csv",['P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','!'])
             except KeyboardInterrupt:
                 print("Nos vimos!")
                 exit(0)
@@ -54,6 +54,5 @@ def main():
 
 
 if __name__ == "__main__":
-    print("WENA LOCO")
-    escribir("mensaje.csv",[1,2,3,4,5])
-    main() 
+    escribir("mensaje.csv",['P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','P','E','P','E','G','A','Y','!'])
+    main()
